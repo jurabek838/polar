@@ -1,0 +1,843 @@
+@font-face {
+    font-family: "Fredoka400";
+    src: url(../10darsugavazefa/fonts/Fredoka400.ttf);
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contaner {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.fear_it {
+    height: 200px;
+    background: #F2CEDA;
+
+}
+
+.chart_planet {
+    width: 700px;
+    /* margin-top: 500px; */
+
+}
+
+.suppose_slov {
+    width: 610px;
+    height: 130px;
+    flex-shrink: 0;
+    font-family: 'Fredoka400';
+    color: #0F0101;
+    font-size: 57.33px;
+    font-style: normal;
+    line-height: 120.5%;
+    /* 69.083px */
+}
+
+.slove_span {
+
+    opacity: 0.9;
+    color: #D23166;
+    font-family: 'Fredoka400';
+    font-size: 57.33px;
+    font-style: normal;
+    line-height: 120.5%;
+}
+
+.soput_brec {
+    margin-top: 35px;
+    width: 440px;
+    height: 500px;
+}
+
+.aligin_clud {
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.foot_card {
+
+    display: flex;
+    gap: 50px;
+
+}
+
+.img {
+    margin-left: 150px;
+}
+
+.beat_bes:hover {
+    box-shadow: 0px 0px 20px 0px red;
+    transition: .5s;
+}
+
+
+
+.mian_grup {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+
+}
+
+.beat_bes {
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    border: transparent;
+    color: white;
+    background: hsla(340, 64%, 51%, 1);
+    transition: .5s;
+
+}
+
+.text_grup:hover {
+    color: red;
+    transition: .5s;
+
+}
+
+
+
+.stoll_villge {
+    border-radius: 5px;
+    background: #D23166;
+    width: 165px;
+    height: 49px;
+    border: transparent;
+    color: white;
+}
+
+
+.stoll_villge:hover {
+    box-shadow: 0px 0px 20px 0px red;
+    transition: .5s;
+
+}
+
+
+.battan_card {
+    margin-top: -375px;
+}
+
+.img_two {
+    margin-top: -300px;
+    margin-left: 680px;
+
+}
+
+.evil_fail {
+    background: #F2CEDA;
+    margin-top: -150px;
+    height: 800px;
+
+}
+
+.weather_reach {
+    width: 250px;
+    height: 200px;
+    flex-shrink: 0;
+    border: 1px solid white;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+    margin-bottom: 500px;
+}
+
+
+.weather_reach:hover {
+    box-shadow: 0px 0px 15px 0px rosybrown;
+    transition: .5s;
+}
+
+
+
+.img_three {
+    margin-left: 95px;
+    margin-top: 30px;
+}
+
+.dead_wese {
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.survive_pen {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.img_free {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.wisim_pew {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.retum_voil {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.img_four {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.beach_damage {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.emotion_fix {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.img_five {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.grab_hang {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.patter_singile {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.atte_pater {
+    margin-top: 100px;
+    display: flex;
+    margin-left: 190px;
+    gap: 50px;
+    margin-top: 150px;
+    margin-bottom: 500px;
+    border-top: 500px;
+}
+
+.relext_tear {
+    background: rgb(225, 159, 159);
+    margin-top: 500px;
+    height: 450px;
+
+}
+
+.prot_far {
+    padding-top: 70px;
+    width: 200px;
+    height: 150px;
+    margin-left: 240px;
+    font-size: 30px;
+
+}
+
+.benfet_effict {
+    width: 442px;
+    /* height: 60px; */
+    flex-shrink: 0;
+    color: #150101;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 240px;
+}
+
+.img_sil {
+    margin-left: 800px;
+    margin-top: -405px;
+}
+
+.section_botton {
+    width: 165px;
+    height: 49.135px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #db5280;
+    border: transparent;
+    margin-left: 230px;
+    margin-top: 40px;
+}
+
+.section_botton:hover {
+    box-shadow: 0px 0px 20px 0px rgb(155, 90, 90);
+    transition: .3s;
+}
+
+.almore_breey {
+    color: #150101;
+    font-family: Hind Madurai;
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-items: center;
+    margin-left: 650px;
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+
+.dead_reach {
+    display: flex;
+    margin-left: 210px;
+    gap: 100px;
+    margin-bottom: 150px;
+    margin-top: -100px;
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.blod_cell:hover {
+    color: rgb(194, 45, 45);
+    transition: .5s;
+    border-bottom: 1px solid rgb(189, 44, 44);
+}
+
+.marry_alig {
+    margin-top: -400px;
+    margin-left: 950px;
+}
+
+.section_three {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+
+.section_three_right_title {
+    color: #000;
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.section_three_right_text_one {
+    width: 454px;
+    height: 67px;
+    flex-shrink: 0;
+    color: #464646;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.money {
+    color: #000;
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.nomoney {
+    color: #444343;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section_three_btn {
+    border-radius: 5px;
+    background: #D64374;
+    width: 165px;
+    height: 49px;
+    flex-shrink: 0;
+    border: transparent;
+    color: #FAFAFA;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.base_enter {
+    color: #000;
+    gap: 20px;
+    margin-top: -130px;
+
+}
+
+.appar_bose {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.clerk_hurry {
+    width: 444px;
+    height: 67px;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.leter_nurse {
+
+    flex-shrink: 0;
+    color: #000;
+    text-align: right;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+}
+
+.img_will {
+    margin-left: 850px;
+    margin-top: 100px;
+}
+
+.driveway_boring {
+    width: 165px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D64374;
+    border: transparent;
+    margin-top: 15px;
+}
+
+.img_storm {
+    margin-left: 180px;
+}
+
+.audience_breakasst {
+    color: #000;
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.coom_gain {
+    width: 454px;
+    height: 67px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.majon_mean {
+    margin-top: 20px;
+    flex-shrink: 0;
+    font-size: 25px;
+}
+
+.skill_somehow {
+    width: 165px;
+    height: 49px;
+    flex-shrink: 0;
+    width: 165px;
+    height: 49px;
+    flex-shrink: 0;
+    border: transparent;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #D64374;
+}
+
+.advertise_assign {
+    margin-left: 900px;
+    margin-top: -340px;
+    margin-bottom: 300px;
+}
+
+.img_vote {
+    margin-left: 300px;
+}
+
+.above_aheat {
+    margin-left: 400px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.amuot_belief {
+    margin-left: 400px;
+    margin-top: -95px;
+    margin-bottom: 100px;
+}
+
+.cost_common {
+    width: 322px;
+    height: 70px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 350px;
+    margin-bottom: 200px;
+}
+
+.img_section_one {
+    margin-left: 800px;
+    position: absolute;
+    margin-top: -530px;
+}
+
+.img_tin {
+    margin-left: 300px;
+    margin-top: 102px;
+}
+
+.inwit_kills {
+    width: 642px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.look_it_internis {
+    width: 607px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #0F0101;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+}
+
+.ollicin_abaut {
+    margin-left: 850px;
+    margin-top: -610px;
+}
+
+.gloob_is {
+    display: flex;
+    margin-left: 840px;
+    margin-top: 40px;
+}
+
+.img_tivilive {
+    margin-top: 15px;
+    margin-left: 840px;
+
+}
+
+.girour_betr {
+    margin-left: 15px;
+}
+
+.bench_ovir {
+    margin-top: 15px;
+    margin-left: 17px;
+
+}
+
+.begin_getap {
+    display: flex;
+
+}
+
+.img_beatst {
+    margin-left: 845px;
+    margin-top: 17px;
+    gap: 20px;
+
+}
+
+.farts_olod {
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
+
+.branch_onew {
+    display: flex;
+}
+
+.otlici_cistr {
+    width: -100px;
+    background-color: rgb(231, 163, 163);
+}
+
+.addet_ettr {
+    margin-left: 830px;
+    margin-top: 30px;
+}
+
+.img_weawatr {
+    margin-top: 28px;
+    margin-left: 40px;
+}
+
+.destrw_ettwat {
+    display: flex;
+    margin-bottom: 400px;
+}
+
+.footer_text {
+
+    margin-left: 500px;
+    width: 522px;
+    height: 123px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.input_text {
+    width: 280px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    background: #FFF;
+    margin-left: 480px;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.secit_imput {
+    width: 280px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 70px;
+    border: 1px solid #FFA3A3;
+}
+
+.footer_card {
+    margin-top: -100px;
+}
+
+
+.footer_settir {
+    width: 400px;
+    height: 75px;
+    padding: 15px;
+
+}
+
+.dalest_pollet {
+    margin-left: 480px;
+
+}
+
+.wetter_tear {
+    width: 134px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D64374;
+}
+
+.boyotta_fooder {
+
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 134px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D64374;
+    margin-bottom: 100px;
+    border: transparent;
+}
+
+.birashet_footer {
+    height: 400px;
+    background-color: black;
+    margin-bottom: 100px;
+
+
+}
+
+.img_greict {
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.fealt_beast {
+    width: 250px;
+    height: 90px;
+    color: white;
+    margin-left: 250px;
+    margin-bottom: 40px;
+}
+
+.inlist_racct {
+    color: white;
+    margin-left: 255px;
+}
+
+.footer_fezbook {
+    margin-top: 50pxpx;
+    margin-left: 255px;
+}
+
+.destert_bekcer {
+    margin-left: 10px;
+}
+
+.grenlik_btre {
+    margin-left: 10px;
+}
+
+.dresslik_shtre {
+    margin-left: 10px;
+
+}
+
+.jisstor_kill_rom {
+    color: white;
+    margin-left: 600px;
+    margin-top: 200px;
+
+
+}
+
+.daressntal_opticto {
+    color: white;
+    margin-top: -190px;
+    margin-left: 550px;
+}
+
+.llinf_yliyu {
+    background: #D23166;
+}
+
+.showlint_hageyi {
+    margin-top: -100px;
+    margin-left: 700px;
+    color: white;
+}
+
+.vetart_butlit {
+    color: white;
+    margin-left: 900px;
+    margin-top: -110px;
+}
+
+.dillotr_treeas {
+    margin-left: 900px;
+    margin-top: 20px;
+
+    width: 388px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #D64374;
+    opacity: 0.5;
+    background: #0F0101;
+    color: white;
+}
+
+.xicort_breed {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -200px;
+    width: 125px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D23166;
+
+}
+
+.frestr_lilk{
+    margin-left: 50px;
+}
+
+.severli_duslit{
+    margin-top: 20px;
+    margin-left: 950px;
+}
+
+.retli_sittili{
+    margin-left: 10px;
+}
+
+.willtir_vindov{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
